@@ -4,7 +4,8 @@
   "description": "��#\u0000 \u0000T\u0000w\u0000i\u0000t\u0000t\u0000e\u0000r\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ikerismak/Twitter/issues"
   },
-  "homepage": "https://github.com/ikerismak/Twitter#readme"
+  "homepage": "https://github.com/ikerismak/Twitter#readme",
+  "dependencies": {
+    "jest": "^28.0.2"
+  }
 }
