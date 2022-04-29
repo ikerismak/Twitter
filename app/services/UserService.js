@@ -22,10 +22,10 @@ class UserService{
     }
 
 
-    // static getallUsernames(user){
+    static getallUsernames([user1,user2,user3]){
 
-    //     return 
-    // }
+        return [ user1.userName, user2.userName, user3.userName]
+    }
 
 }
 
