@@ -2,8 +2,9 @@ class User{
 
     constructor(id,name,userName,bio){
         this.id = id
-        this.userName = userName
         this.name = name
+        this.userName = userName
+    
         this.bio  = bio
         this.dateCreated = new Date()
         this.lastUpdated = new Date()
